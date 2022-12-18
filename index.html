@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free code camp survey form</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="total-space">
+        <section class="heading">
+        <h1>freeCodeCamp Survey Form</h1>
+    <p>Thank you for taking the time to help us improve the platform</p>
+        </section>
+    <div id="box">
+        <section class="info">
+            <p>Name</p>
+            <input type="text" placeholder="Enter your name" required>
+            <p>Email</p>
+            <input type="text" placeholder="Enter email" required>
+            <p>Age(optional)</p>
+            <input type="text" placeholder="Age">
+            <p>Which option best describes your current role?</p>
+                <select name="Role" id="role">
+                <label for="role"></label>
+                <option value="Select current role">Select current role</option>
+                <option value="Student">Student</option>
+                <option value="Full Time Job">Full Time Job</option>
+                <option value="StudeFull Time Learnernt">Full Time Learner</option>
+                <option value="Prefer not to say">Prefer not to say</option>
+                <option value="Other">Other</option>
+            </select>
+        </section>
+
+            <p>Would you recommend freeCodeCamp to a friend?</p>
+        <div id="choices"></div>
+            <label for="Definitely"><input type="radio" id="Definitely" name="choice">Definitely</label>
+            <label for="Maybe"><input type="radio" id="Maybe" name="choice">Maybe</label>
+            <label for="Not sure"><input type="radio" id="Not sure" name="choice">Not Sure</label>
+
+            <p>What is your favorite feature of freeCodeCamp?</p>
+            <select name="fav" id="fav">
+                <label for="fav"></label>
+                <option value="Select current role">Select current role</option>
+                <option value="Challenges">Challenges</option>
+                <option value="Projects">Projects</option>
+                <option value="Community">Community</option>
+                <option value="Open Source">Open Source</option>
+                <br>
+            </select>
+            <p>What would you like to see improved?(Check all that apply)</p>
+            <div></div>
+            <label for="Front-end Project"><input type="checkbox" id="Fronnt-end Project">Front-end Projects</label>
+            <label for="Back-end Projects"><input type="checkbox" id="Back-end Projects">Back-end Projects</label> 
+            <label for="Data Visualization"><input type="checkbox" id="Data Visualization">Data Visualization</label>
+            <label for="Challenges"><input type="checkbox" id="Challenges">Challenges</label>
+            <label for="Open Source Community"><input type="checkbox" id="Open Source Community">Open Source Community</label>
+            <label for="Gitter help rooms"><input type="checkbox" id="Gitter help rooms">Gitter help rooms</label>
+            <label for="Videos"><input type="checkbox" id="Videos">Videos</label>
+            <label for="City Meetups"><input type="checkbox" id="City Meetups">City Meetups</label>
+            <label for="Wiki"><input type="checkbox" id="Wiki">Wiki</label>
+            <label for="Forum"><input type="checkbox" id="Forum">Forum</label>
+            <label for="Additional Courses"><input type="checkbox" id="Additional Courses">Additional Courses</label>
+
+
+
+        <section class="comment">
+            <p>Any comment or suggestions?</p>
+            <textarea name="comment" id="comment" cols="50" rows="5">Enter your comment here</textarea>
+            <button id="comment-submit">submit</button>
+        </section>
+    </div>
+</div>
+</body>
+</html>

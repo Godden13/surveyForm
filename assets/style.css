@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  color: #fff;
+  padding: 0;
+}
+
+.info input {
+  width: 100%;
+  padding: 2px;
+  margin: 12px;
+}
+
+#info {
+  width: 100%;
+
+}
+
+#total-space {
+  background: linear-gradient(#8888ceb3, #3a3a9ecc), url(images/pic-3.jpg);
+  background-size: cover;
+  background-position: center;
+  height: fit-content;
+}
+
+#box {
+  background: #000000b3;
+  padding: 10px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: left;
+  border-radius: 5px;
+}
+
+.heading {
+  margin-top: 20px;
+  padding: 30px;
+  margin: 3px;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+.heading h1 {
+  margin-bottom: 20px;
+}
+
+.heading p {
+  font-style: italic;
+}
+
+.info {
+  padding: 5px;
+  margin: 12px;
+  color: #fff;
+}
+
+#choices {
+  text-align: left;
+  margin: 12px;
+}
+
+#role {
+  padding: 5px;
+  color: #000;
+  background-color: #fff;
+  margin: 12px;
+}
+
+option {
+  color: #000
+}
+
+#fav {
+  padding: 5px;
+  color: #000;
+  margin: 12px;
+}
+
+label {
+
+  display: block;
+  margin: 12px;
+}
+
+button {
+  background-color: #008000;
+  color: #fff;
+  width: 100%;
+  margin: 10px 0;
+}
